@@ -26,3 +26,8 @@
 ## Database
 - backendと同様、もし使用するのであればDatabase moduleに従う必要がある。
 - PostgreSQLを使用
+  - PostgreSQLとSQLiteの違い
+    https://bigdata-tools.com/sql-db/
+  - 複数の端末からDBに操作を試みるようなシステムは「クライアントサーバー型」→　PostgreSQL, MySQLどちらか
+  - そのソフトウェア内で完結するようなデータのやり取りをしたい場合は「SQLite」
+  - ほとんどの場合はDBといえば「クライアントサーバー型」。
